@@ -1,0 +1,715 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* heder */
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.head_logo .logo {
+    margin-top: 15px;
+}
+
+.head_logo .logo i {
+    font-size: 30px;
+}
+
+.head_logo .logo .test p {
+    font-size: 10px;
+}
+
+.container a {
+    color: black;
+    text-decoration: none;
+}
+
+.container a h2 {
+    font-size: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header ul .signin {
+    border-radius: 40px;
+    padding: 4px 20px;
+    background-color: rgb(41, 201, 187);
+    color: white;
+}
+
+/* photo */
+
+main .photo {
+    width: 1310px;
+    height: 40%;
+}
+
+main .photo img {
+    width: 100%;
+}
+
+/* icons */
+
+.big {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.icon1 {
+    color: rgb(149, 103, 192);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icon2 {
+    color: rgb(80, 212, 102);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icon3 {
+    color: rgb(214, 142, 59);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icon4 {
+    color: rgb(72, 235, 112);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icon5 {
+    color: rgb(231, 64, 64);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icon6 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.text_icon6 {
+    color: white;
+    text-align: center;
+}
+
+.icons_class {
+    border: 1px solid #e7e4e4;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+}
+
+.add {
+    border: 1px solid #e7e4e4;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    background-color: #ecac34;
+}
+
+/* browse course */
+
+.Browse_Course {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Courses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.Course {
+    border: 1px solid #e7e4e4;
+    border-radius: 10px;
+    width: 295px;
+    height: 350px;
+}
+
+.Course img {
+    width: 292px;
+    margin-bottom: 15px;
+}
+
+.Titel {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 10px;
+}
+
+.Viewer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 10px;
+}
+
+.Viewer i {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.between {
+    margin-left: 10px;
+}
+
+.Course p {
+    margin: 10px 20px 0 20px;
+}
+
+.Viewer p {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.Course h6 {
+    background-color: rgb(194, 240, 204);
+    color: rgb(79, 206, 108);
+    border-radius: 50px;
+    padding: 3px 20px;
+}
+
+.Course h5 {
+    margin-left: 10px;
+}
+
+.Browse_Course a {
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    background-color: powderblue;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+/* back top */
+
+.back-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background: darkturquoise;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* why choose us */
+
+.Why_Choose_US {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.Why_Choose_US_Text {
+    margin-right: 40px;
+}
+
+.Why_Choose_US_Text table i {
+    color: darkturquoise;
+}
+
+/* Our Achievements */
+
+.part3 {
+    background-color: rgb(224, 239, 245);
+    margin-top: 100px;
+}
+
+.titel {
+    color: #4a4e88;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.groub {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.Online_Courses h5 {
+    color: rgb(82, 131, 238);
+}
+
+.Enroll_Student h5 {
+    color: rgb(84, 216, 139);
+}
+
+.Expert_Instructor h5 {
+    color: rgb(240, 185, 83);
+}
+
+.Profile_Review h5 {
+    color: rgb(240, 95, 95);
+}
+
+.groub h5, h6 {
+    text-align: center;
+}
+
+/* video */
+
+.vid {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+/* Top Rated "coatches" */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.navigation_icons {
+    margin-right: 60px;
+}
+
+.coatch {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.coatch .head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coatch1 {
+    width: 250px;
+    height: 300px;
+    background-image: url(../image/cotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px 0 0;
+    border-radius: 25px;
+}
+
+.coatch2 {
+    width: 250px;
+    height: 300px;
+    background-image: url(../image/cotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px 0 0;
+    border-radius: 25px;
+}
+
+.coatch3 {
+    width: 250px;
+    height: 300px;
+    background-image: url(../image/cotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px 0 0;
+    border-radius: 25px;
+}
+
+.coatch4 {
+    width: 250px;
+    height: 300px;
+    background-image: url(../image/cotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px 0 0;
+    border-radius: 25px;
+}
+
+.coatch5 {
+    width: 250px;
+    height: 300px;
+    background-image: url(../image/cotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px 0 0;
+    border-radius: 25px;
+}
+
+.coatch6 {
+    width: 250px;
+    height: 300px;
+    background-image: url(../image/cotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px 0 0;
+    border-radius: 25px;
+}
+
+.head {
+    display: flex;
+    margin-top: 240px;
+}
+
+.coatch h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.coatch h6 {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.head h6 {
+    color: rgb(226, 146, 55);
+    margin-top: 10px;
+}
+
+/* feed back */
+
+.feed{
+    background-color: #f2f2f2;
+}
+.view_feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.view_feedback a {
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    background-color: powderblue;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.student_feedback {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.student {
+    border: 1px solid #e7e4e4;
+    border-radius: 10px;
+    height: 350px;
+    width: 480px;
+}
+
+.student p {
+    margin: 0px;
+}
+
+.contant {
+    margin-top: 60px;
+}
+
+.student_feedback img {
+    width: 100px;
+}
+
+/* subscribe */
+
+.tosubscribe {
+    text-align: center;
+}
+
+.tosubscribe h4 {
+    margin-top: 20px;
+}
+
+.tosubscribe h5 {
+    margin-top: 20px;
+}
+
+.tosubscribe a {
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    background-color: powderblue;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+/* Courses page style */
+
+main h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: cadetblue;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* login page style */
+
+.loginForm form {
+    margin-left: 340px;
+    margin-top: 150px;
+}
+
+.loginForm input {
+    display: block;
+    border: black solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.loginForm button {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: rgb(41, 201, 187);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.loginForm a {
+    color: cadetblue;
+}
+
+/* signup page style */
+
+.signupForm form {
+    margin-left: 340px;
+    margin-top: 100px;
+}
+
+.signupForm input {
+    display: block;
+    border: black solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signupForm button {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: rgb(41, 201, 187);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.signupForm a {
+    color: cadetblue;
+}
+
+/* cv page style */
+
+.cv img {
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 370px;
+    border-radius: 25px;
+}
+
+.cv h1 {
+    margin-left: 345px;
+    color: rgb(72, 74, 216);
+}
+
+.who {
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 30px 30px 30px 30px;
+}
+
+.who p {
+    font-size: 13px;
+}
+
+.who h2 {
+    color: red;
+}
+
+.testcv {
+    display: flex;
+}
+
+.tab {
+    margin-left: 430px;
+    margin-top: 40px;
+}
+
+.tab h3 {
+    color: red;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+
+.tab th {
+    color: rgb(74, 113, 177);
+    background-color: rgb(195, 197, 202);
+    width: 150px;
+    text-align: center;
+}
+
+.tab td {
+    text-align: center;
+}
+
+.skill {
+    margin-top: 70px;
+    margin-left: 150px;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 30px 30px 30px 30px;
+    height: 260px;
+}
+
+.skill h3 {
+    color: red;
+}
+
+.skill ul {
+    list-style: none;
+}
+
+.down {
+    margin-top: 40px;
+}
+
+/* footer */
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+}
+
+.download a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo i {
+    margin-right: 10px;
+    color: rgb(55, 230, 148);
+    font-size: 38px;
+}
+
+.test h6 {
+    text-align: left;
+    margin: 0px;
+}
+
+.android {
+    margin-top: 25px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    background-color: rgb(30, 48, 77);
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.ios {
+    margin-top: 25px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    background-color: rgb(30, 48, 77);
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.download h6 {
+    color: white;
+}
+
+.download i {
+    color: white;
+}
+
+.end {
+    display: flex;
+}
+
+.end .ss {
+    margin-left: 400px;
+    margin-right: 10px;
+}
